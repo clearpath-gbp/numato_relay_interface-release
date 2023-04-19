@@ -1,0 +1,12 @@
+Source: ros-noetic-numato-relay-interface
+Section: misc
+Priority: optional
+Maintainer: Tony tbaltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roslint <!nocheck>
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-numato-relay-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-serial, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-std-srvs
+Description: The numato_relay_interface package
