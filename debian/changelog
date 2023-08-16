@@ -1,0 +1,30 @@
+ros-noetic-numato-relay-interface (0.1.3-1focal) focal; urgency=high
+
+  * Sleep if the specified serial port file doesn't exist (yet)
+  * Change the relay state topics to be latched and only publish their initial states + new state on change
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 16 Aug 2023 04:00:00 -0000
+
+ros-noetic-numato-relay-interface (0.1.2-1focal) focal; urgency=high
+
+  * Fix required components in the cmake file, update the maintainer
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Thu, 20 Apr 2023 04:00:00 -0000
+
+ros-noetic-numato-relay-interface (0.1.1-1focal) focal; urgency=high
+
+  * Linter fixes
+  * Contributors: Chris Iverach-Brereton
+
+ -- Tony tbaltovski <tbaltovski@clearpathrobotics.com>  Wed, 19 Apr 2023 04:00:00 -0000
+
+ros-noetic-numato-relay-interface (0.1.0-1focal) focal; urgency=high
+
+  * Initial public release
+  * Contributors: Chris Iverach-Brereton, Joey Yang, Rhys Faultless, Tony Baltovski
+
+ -- Tony tbaltovski <tbaltovski@clearpathrobotics.com>  Mon, 03 Apr 2023 04:00:00 -0000
+
+
